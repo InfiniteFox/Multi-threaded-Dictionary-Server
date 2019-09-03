@@ -26,7 +26,8 @@ public class Client {
 	    	output.writeUTF(sendData);
 	    	System.out.println("Data sent to Server--> " + sendData);
 	    	output.flush();
-	    	
+	    	String sendWord = "World";
+	    	output.writeUTF(sendWord);
 		    while(true && input.available() > 0)
 		    {
 	    		String message = input.readUTF();

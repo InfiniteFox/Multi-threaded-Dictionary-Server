@@ -52,6 +52,7 @@
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="server.Server" />
       <module name="DS Assignment 1" />
+      <option name="PROGRAM_PARAMETERS" value="-p=3005" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="server.*" />
@@ -62,6 +63,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
@@ -82,7 +87,7 @@
       <workItem from="1566143558658" duration="618000" />
       <workItem from="1566936168076" duration="77000" />
       <workItem from="1567438882212" duration="208000" />
-      <workItem from="1567439151136" duration="1343000" />
+      <workItem from="1567439151136" duration="7025000" />
     </task>
     <servers />
   </component>
